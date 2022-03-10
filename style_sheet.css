@@ -1,0 +1,29 @@
+body {
+  background-color: #EED6C4;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+ul {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+}
+li {
+  display: inline;
+  padding: 5px;
+  text-align: right;
+}
+li a {
+  color: #483434;
+  text-decoration: none;
+}
+li a:hover {
+  color: #FFF3E4;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 66% 30%;
+  grid-gap: 10px;
+  justify-content: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
