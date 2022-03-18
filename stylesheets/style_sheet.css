@@ -258,6 +258,10 @@ body > footer {
     padding-top: 10em;
   }
 
+  .hidden_desktop {
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -357,6 +361,10 @@ body > footer {
     padding-top: 1em;
   }
 
+  .hidden_mobile {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 2200px) {
@@ -366,6 +374,10 @@ body > footer {
     grid-template-rows: 90% 5%;
     grid-gap: 20em;
     justify-content: space-between;
+  }
+
+  .hidden_desktop {
+    display: none;
   }
 
 }
